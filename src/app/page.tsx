@@ -51,10 +51,10 @@ export default function HomePage() {
           {siteConfig.description}
         </p>
         <div className="flex flex-col gap-3 sm:flex-row">
-          <Button size="lg" render={<Link href="/dashboard" />}>
+          <Button size="lg" nativeButton={false} render={<Link href="/dashboard" />}>
             대시보드 보기
           </Button>
-          <Button size="lg" variant="outline" render={<Link href="/contact" />}>
+          <Button size="lg" variant="outline" nativeButton={false} render={<Link href="/contact" />}>
             문의하기
           </Button>
         </div>

@@ -13,7 +13,7 @@ export default function NotFound() {
       <p className="text-muted-foreground">
         요청하신 페이지가 없거나 주소가 변경되었을 수 있습니다.
       </p>
-      <Button render={<Link href="/" />}>홈으로 돌아가기</Button>
+      <Button nativeButton={false} render={<Link href="/" />}>홈으로 돌아가기</Button>
     </div>
   );
 }
